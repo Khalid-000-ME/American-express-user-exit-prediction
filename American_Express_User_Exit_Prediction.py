@@ -99,7 +99,7 @@ ann.fit(X_train, y_train, batch_size=32, epochs=120)
 
 
 """
-Predicting the values using test data
+Predicting y values using test data
 """
 
 y_pred = ann.predict(X_test)
