@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 Importing Dataset
 """
 
-data_set = pd.read_csv("data_set.csv")
+data_set = pd.read_csv("American_express_data_set.csv")
 X = data_set.iloc[:, :-1].values
 y = data_set.iloc[:, -1].values
 
